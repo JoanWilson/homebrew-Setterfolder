@@ -3,19 +3,15 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Setterfolder < Formula
   desc "A terminal program for macOS which its purpose is to organise your folders"
-  homepage ""
+  homepage "https://github.com/JoanWilson/Setterfolder"
   url "https://github.com/JoanWilson/Setterfolder/releases/download/v1.0.0/Setterfolder"
   sha256 "30dc87f3a28d6d4c8bb7f1e244f321542c64aaff3b44b758aeaf3f66268915c9"
-  license ""
+  license "MIT"
 
   # depends_on "cmake" => :build
 
   def install
-    # ENV.deparallelize  # if your formula fails when building in parallel
-    # Remove unrecognized options if warned by configure
-    # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    system "./configure", *std_configure_args, "--disable-silent-rules"
-    # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
+    bin.install 'Setterfolder'
   end
 
   test do
