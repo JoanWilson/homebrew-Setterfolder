@@ -5,7 +5,7 @@ class Setterfolder < Formula
   desc "A terminal program for macOS which its purpose is to organise your folders"
   homepage "https://github.com/JoanWilson/Setterfolder"
   url "https://github.com/JoanWilson/Setterfolder/releases/download/v1.0.0/Setterfolder"
-  sha256 "087016f2823222c5af1815ec4626c227a4110b0dfc25591a9b604509abe39be8"
+  sha256 "30dc87f3a28d6d4c8bb7f1e244f321542c64aaff3b44b758aeaf3f66268915c9"
   license "MIT"
 
   # depends_on "cmake" => :build
